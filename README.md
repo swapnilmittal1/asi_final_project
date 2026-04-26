@@ -8,21 +8,21 @@ The project does **not** claim that CoAID articles were posted by the SNAP ego-n
 
 The project extends binary misinformation containment from:
 
-\[
+$$
 \min_B \mathbb{E}[\text{infected nodes}]
-\]
+$$
 
 to severity-aware harm minimization:
 
-\[
+$$
 \min_B \mathbb{E}[\text{severity-weighted total harm}]
-\]
+$$
 
 and a resilience variant:
 
-\[
+$$
 \mathbb{E}[\text{total harm}] + \lambda \cdot \mathbb{E}[\text{worst-community harm rate}]
-\]
+$$
 
 This lets the system ask not only "how many nodes received misinformation?", but also "how harmful was the misinformation?" and "did harm concentrate inside a structural community?"
 
@@ -319,9 +319,9 @@ high:    26 articles, mean score 0.7188, harm weight 2.4
 
 Total harm is computed as:
 
-\[
+$$
 \text{total harm} = \sum_{v \in \text{infected}} \text{harm weight}(v)
-\]
+$$
 
 In the current main experiments, the harm weight is a scenario-level scalar. Optional node-specific harm weights are supported by the API for future extensions.
 
