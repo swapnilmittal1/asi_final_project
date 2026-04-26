@@ -1,0 +1,29 @@
+{
+  "scenario_id": "low_virality_random",
+  "ego_id": 17723880,
+  "graph_edge_list": "data/processed/twitter_dev_edges.csv",
+  "node_community_csv": "data/processed/twitter_dev_node_communities.csv",
+  "seed_strategy": "random",
+  "n_seeds": 5,
+  "propagation_regime": "low",
+  "ic_propagation_p": 0.01,
+  "intervention_budgets": [
+    5,
+    10,
+    20,
+    40
+  ],
+  "community_source": "circles",
+  "coaid_engagement_summary": {
+    "n_fake_articles": 838,
+    "engagement_total_min": 0,
+    "engagement_total_max": 1369,
+    "log1p_tertile_cutoffs": [
+      0.0,
+      0.0
+    ],
+    "note": "Tertiles computed on log1p(engagement_total) for fake-labeled CoAID rows only; used to name low/medium/high virality scenarios, not to estimate IC parameters."
+  },
+  "disclaimer": "ic_propagation_p is a simulation setting for stress-testing methods; it is not a causal estimate of retweet probability derived from CoAID engagement.",
+  "extra_notes": "Motivated by lower engagement mass in CoAID fake-news distribution; uses small p and few seeds."
+}

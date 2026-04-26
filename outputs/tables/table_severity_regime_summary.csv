@@ -1,0 +1,4 @@
+severity_regime,n_articles,severity_score_mean,severity_score_median,base_harm_weight,propagation_multiplier_constant,propagation_multiplier_bucket,propagation_multiplier_linear,construction_source,severity_notes
+low,664,0.2067,0.15,1.0,1.0,0.9,0.86,coaid_regime_median,"Bucket summary over fake-labeled CoAID articles. Use as semi-synthetic scenario metadata, not as a real user-level harm label."
+medium,148,0.476,0.49,1.6,1.0,1.0,0.996,coaid_regime_median,"Bucket summary over fake-labeled CoAID articles. Use as semi-synthetic scenario metadata, not as a real user-level harm label."
+high,26,0.7188,0.695,2.4,1.0,1.1,1.078,coaid_regime_median,"Bucket summary over fake-labeled CoAID articles. Use as semi-synthetic scenario metadata, not as a real user-level harm label."

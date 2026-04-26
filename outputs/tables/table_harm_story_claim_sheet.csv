@@ -1,0 +1,5 @@
+comparison,delta_total_harm,delta_worst_community_harm
+harm_aware_greedy_vs_greedy,-7.049999999999983,-0.24032738095238093
+harm_aware_greedy_vs_fairness_greedy,-9.0,-0.021428571428571574
+harm_aware_greedy_vs_top_degree,-5.099999999999994,-0.18050595238095246
+harm_resilience_vs_greedy,-1.5749999999999886,-0.21611801242236006

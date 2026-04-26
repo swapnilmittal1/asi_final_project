@@ -1,0 +1,16 @@
+{
+  "scenario_id": "medium_severity_linear_propagation",
+  "severity_mode": "severity_aware",
+  "severity_regime": "medium",
+  "severity_score": 0.49,
+  "severity_label": "medium",
+  "base_harm_weight": 1.6,
+  "propagation_mode": "linear",
+  "propagation_multiplier": 0.996,
+  "objective_modes_supported": [
+    "binary_count",
+    "harm_total",
+    "harm_plus_resilience"
+  ],
+  "notes": "Semi-synthetic severity scenario derived from CoAID fake-article severity bucket summaries. No user-level mapping to SNAP nodes."
+}

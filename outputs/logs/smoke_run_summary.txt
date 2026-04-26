@@ -1,0 +1,12 @@
+Smoke baselines (simulation study; not causal real-world spread)
+ego_id=17723880 n_nodes=123 n_edges=1270
+seeds=[117306176, 25534991, 21686566, 65285104, 14685759, 257795306, 312358396, 384057286, 43366650, 14203936] strategy=high_degree p=0.03 n_runs=200 budget_k=5
+
+             method  budget_k  n_runs  ic_p  n_seeds seed_strategy   ego_id  mean_infected  std_infected  mean_infection_rate  mean_steps
+    no_intervention         0     200  0.03       10   high_degree 17723880          31.67      6.151447             0.257480       4.860
+    random_blocking         5     200  0.03       10   high_degree 17723880          30.24      5.801785             0.245854       4.765
+top_degree_blocking         5     200  0.03       10   high_degree 17723880          27.12      5.298677             0.220488       4.330
+
+Note: structural communities (circles) are network-defined, not demographic groups.
+
+Caution: dev graph is small; baseline differences may be modest; consider a larger ego for main experiments.

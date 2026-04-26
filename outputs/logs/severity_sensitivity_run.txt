@@ -1,0 +1,22 @@
+Severity sensitivity study
+propagation_modes=3 severity_regimes=3 n_runs=32
+Severity affects evaluation in all rows; propagation scaling is optional by mode.
+
+ego=moderate_large_circles severity=low propagation_mode=constant score=0.150 harm_w=1.00 prop_mult=1.000
+ego=moderate_large_circles severity=medium propagation_mode=constant score=0.490 harm_w=1.60 prop_mult=1.000
+ego=moderate_large_circles severity=high propagation_mode=constant score=0.695 harm_w=2.40 prop_mult=1.000
+ego=large_circles severity=low propagation_mode=constant score=0.150 harm_w=1.00 prop_mult=1.000
+ego=large_circles severity=medium propagation_mode=constant score=0.490 harm_w=1.60 prop_mult=1.000
+ego=large_circles severity=high propagation_mode=constant score=0.695 harm_w=2.40 prop_mult=1.000
+ego=moderate_large_circles severity=low propagation_mode=bucket score=0.150 harm_w=1.00 prop_mult=0.900
+ego=moderate_large_circles severity=medium propagation_mode=bucket score=0.490 harm_w=1.60 prop_mult=1.000
+ego=moderate_large_circles severity=high propagation_mode=bucket score=0.695 harm_w=2.40 prop_mult=1.100
+ego=large_circles severity=low propagation_mode=bucket score=0.150 harm_w=1.00 prop_mult=0.900
+ego=large_circles severity=medium propagation_mode=bucket score=0.490 harm_w=1.60 prop_mult=1.000
+ego=large_circles severity=high propagation_mode=bucket score=0.695 harm_w=2.40 prop_mult=1.100
+ego=moderate_large_circles severity=low propagation_mode=linear score=0.150 harm_w=1.00 prop_mult=0.860
+ego=moderate_large_circles severity=medium propagation_mode=linear score=0.490 harm_w=1.60 prop_mult=0.996
+ego=moderate_large_circles severity=high propagation_mode=linear score=0.695 harm_w=2.40 prop_mult=1.078
+ego=large_circles severity=low propagation_mode=linear score=0.150 harm_w=1.00 prop_mult=0.860
+ego=large_circles severity=medium propagation_mode=linear score=0.490 harm_w=1.60 prop_mult=0.996
+ego=large_circles severity=high propagation_mode=linear score=0.695 harm_w=2.40 prop_mult=1.078

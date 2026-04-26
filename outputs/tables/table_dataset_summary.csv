@@ -1,0 +1,4 @@
+dataset,metric,value
+coaid_articles,n_total,3555
+coaid_articles,n_fake,838
+coaid_articles,n_real,2717

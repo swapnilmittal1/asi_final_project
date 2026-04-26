@@ -1,0 +1,12 @@
+{
+  "ego_id": 17723880,
+  "undirected": true,
+  "modeling_note": "SNAP ego edges are treated as undirected for IC; this is a modeling simplification, not a claim about Twitter's directed activity.",
+  "n_nodes": 123,
+  "n_edges": 1270,
+  "circles_nonempty": true,
+  "n_circles": 3,
+  "nodes_with_circle_label": 81,
+  "circles_fallback_needed": false,
+  "community_source": "circles"
+}

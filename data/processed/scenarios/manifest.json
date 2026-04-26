@@ -1,0 +1,8 @@
+{
+  "scenarios": [
+    "low_virality_random",
+    "medium_virality_high_degree",
+    "high_virality_concentrated"
+  ],
+  "ego_id": 17723880
+}

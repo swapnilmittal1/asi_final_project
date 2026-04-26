@@ -1,0 +1,8 @@
+{
+  "ego_id": 17602896,
+  "undirected": true,
+  "n_nodes": 161,
+  "n_edges": 2520,
+  "community_source": "circles",
+  "n_community_labels": 3
+}

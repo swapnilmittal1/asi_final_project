@@ -1,0 +1,13 @@
+{
+  "scenarios": [
+    "low_severity_constant_propagation",
+    "low_severity_bucket_propagation",
+    "low_severity_linear_propagation",
+    "medium_severity_constant_propagation",
+    "medium_severity_bucket_propagation",
+    "medium_severity_linear_propagation",
+    "high_severity_constant_propagation",
+    "high_severity_bucket_propagation",
+    "high_severity_linear_propagation"
+  ]
+}

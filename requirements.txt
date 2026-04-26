@@ -1,0 +1,9 @@
+# Pin versions when stabilizing; loose pins for course development
+pandas>=2.0
+numpy>=1.24
+networkx>=3.0
+matplotlib>=3.7
+scikit-learn>=1.3
+scipy>=1.11
+tqdm>=4.66
+jupyter>=1.0

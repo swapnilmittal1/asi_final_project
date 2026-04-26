@@ -1,0 +1,20 @@
+Fairness lambda sweep (oracle n_runs = eval n_runs)
+
+ego 18534908 moderate_large_circles seeds=[12771872, 15578561, 16371487, 18729482, 18794888, 19597106, 20101482, 30007505, 33080180, 114636253]
+  budget=10 lambda=0.5 mean_I=43.958 worst=0.411
+  budget=10 lambda=1.0 mean_I=43.750 worst=0.430
+  budget=10 lambda=3.0 mean_I=43.667 worst=0.416
+  budget=10 lambda=5.0 mean_I=43.521 worst=0.395
+  budget=20 lambda=0.5 mean_I=36.438 worst=0.338
+  budget=20 lambda=1.0 mean_I=36.438 worst=0.338
+  budget=20 lambda=3.0 mean_I=36.438 worst=0.338
+  budget=20 lambda=5.0 mean_I=36.438 worst=0.338
+ego 88639412 large_circles seeds=[15439395, 15820664, 17208738, 19332267, 20984259, 33350096, 36695656, 44527648, 46248315, 63228090]
+  budget=10 lambda=0.5 mean_I=37.271 worst=0.314
+  budget=10 lambda=1.0 mean_I=37.792 worst=0.311
+  budget=10 lambda=3.0 mean_I=37.958 worst=0.322
+  budget=10 lambda=5.0 mean_I=38.208 worst=0.308
+  budget=20 lambda=0.5 mean_I=33.708 worst=0.295
+  budget=20 lambda=1.0 mean_I=33.708 worst=0.295
+  budget=20 lambda=3.0 mean_I=33.708 worst=0.295
+  budget=20 lambda=5.0 mean_I=33.708 worst=0.295

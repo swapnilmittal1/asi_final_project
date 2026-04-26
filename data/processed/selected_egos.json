@@ -1,0 +1,35 @@
+{
+  "description": "Dev ego uses legacy twitter_dev_* files; others live under data/processed/egos/<ego_id>/",
+  "egos": [
+    {
+      "ego_id": 17723880,
+      "label": "dev",
+      "legacy_dev_paths": true,
+      "matrix_role": "debugging"
+    },
+    {
+      "ego_id": 17602896,
+      "label": "medium_circles",
+      "legacy_dev_paths": false,
+      "notes": "Slightly larger than dev; non-empty SNAP circles."
+    },
+    {
+      "ego_id": 18534908,
+      "label": "moderate_large_circles",
+      "legacy_dev_paths": false,
+      "notes": "More nodes/edges than dev; multiple circles."
+    },
+    {
+      "ego_id": 267383914,
+      "label": "detected_communities",
+      "legacy_dev_paths": false,
+      "notes": "Empty .circles in SNAP; communities from greedy modularity."
+    },
+    {
+      "ego_id": 88639412,
+      "label": "large_circles",
+      "legacy_dev_paths": false,
+      "notes": "Larger ego (~239 nodes); circles non-empty; for main conclusions."
+    }
+  ]
+}

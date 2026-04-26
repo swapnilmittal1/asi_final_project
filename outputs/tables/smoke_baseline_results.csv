@@ -1,0 +1,4 @@
+method,budget_k,n_runs,ic_p,n_seeds,seed_strategy,ego_id,mean_infected,std_infected,mean_infection_rate,mean_steps
+no_intervention,0,200,0.03,10,high_degree,17723880,31.67,6.1514471067820855,0.257479674796748,4.86
+random_blocking,5,200,0.03,10,high_degree,17723880,30.24,5.801784511474719,0.24585365853658536,4.765
+top_degree_blocking,5,200,0.03,10,high_degree,17723880,27.12,5.298677183929729,0.22048780487804878,4.33

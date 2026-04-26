@@ -1,0 +1,4 @@
+severity_regime,n_articles,mean_score,mean_harm_weight
+low,664,0.2067,1.0
+medium,148,0.476,1.6
+high,26,0.7188,2.4

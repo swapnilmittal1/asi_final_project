@@ -1,0 +1,15 @@
+kind,file,rows,cols,columns,notes
+coaid_news_fake_5,NewsFakeCOVID-19_5.csv,572,15,"index,type,fact_check_url,archieve,news_url,news_url2..5,title,newstitle,content,abstract,publish_date,meta_keywords","First column is numeric article id (0-622 range); join tweets.index"
+coaid_news_fake_7,NewsFakeCOVID-19_7.csv,266,15,same_schema_as_fake_5,"Article ids 623-888; disjoint index range vs _5"
+coaid_news_real_5,NewsRealCOVID-19_5.csv,1590,10,"index,type,fact_check_url,news_url,title,newstitle,content,abstract,publish_date,meta_keywords","Many publish_date empty; overlaps _7 on indices"
+coaid_news_real_7,NewsRealCOVID-19_7.csv,1127,10,same_schema_as_real_5,"Merge with _5 requires dedup by index (overlap ~1555-10034)"
+coaid_tweets_fake_5,NewsFakeCOVID-19_tweets_5.csv,9218,2,"index,tweet_id",Links to fake news article id
+coaid_tweets_fake_7,NewsFakeCOVID-19_tweets_7.csv,1198,2,same_as_tweets_5,
+coaid_tweets_real_5,NewsRealCOVID-19_tweets_5.csv,87324,2,"index,tweet_id",
+coaid_tweets_real_7,NewsRealCOVID-19_tweets_7.csv,54224,2,same_as_tweets_5,
+coaid_replies_fake_5,NewsFakeCOVID-19_tweets_replies_5.csv,5721,3,"news_id,tweet_id,reply_id",news_id subset of fake article ids
+coaid_replies_fake_7,NewsFakeCOVID-19_tweets_replies_7.csv,1672,3,same_as_replies_5,
+coaid_replies_real_5,NewsRealCOVID-19_tweets_replies_5.csv,64115,3,same_as_replies_5,
+coaid_replies_real_7,NewsRealCOVID-19_tweets_replies_7.csv,50642,3,same_as_replies_5,
+twitter_ego_edges,twitter/*.edges,973,n/a,"two ints per line (src dst)","Median ~1752 lines/file; max 17930; min 5"
+twitter_ego_circles,twitter/*.circles,973,n/a,"circle_id TAB user_ids","35 files empty; rest tab-separated manual circles"

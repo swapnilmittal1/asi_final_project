@@ -1,0 +1,44 @@
+{
+  "high_risk_terms": [
+    "vaccine",
+    "vaccination",
+    "inject",
+    "bleach",
+    "disinfectant",
+    "drink",
+    "garlic",
+    "cure",
+    "treatment",
+    "hydroxychloroquine",
+    "ivermectin",
+    "mask",
+    "hospital alone",
+    "refuse vaccination"
+  ],
+  "medium_risk_terms": [
+    "testing",
+    "test kit",
+    "symptom",
+    "infection",
+    "cases",
+    "death",
+    "lockdown",
+    "quarantine",
+    "hospital",
+    "immunity",
+    "spread",
+    "origin"
+  ],
+  "guidance_terms": [
+    "should",
+    "must",
+    "need to",
+    "avoid",
+    "take",
+    "stop",
+    "refuse",
+    "prevent",
+    "proof"
+  ],
+  "manual_override_csv": "/Users/swapnilmittal/Downloads/asi_project/data/processed/coaid_severity_manual_overrides.csv"
+}

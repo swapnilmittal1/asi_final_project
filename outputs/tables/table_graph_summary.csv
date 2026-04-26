@@ -1,0 +1,6 @@
+ego_id,ego_label,matrix_role,community_source,n_nodes,n_edges
+17602896,medium_circles,primary,circles,161,2520
+17723880,dev,debugging,circles,123,1270
+18534908,moderate_large_circles,primary,circles,185,2521
+88639412,large_circles,primary,circles,239,2528
+267383914,detected_communities,primary,detected,152,2520

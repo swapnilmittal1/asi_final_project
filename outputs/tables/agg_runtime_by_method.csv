@@ -1,0 +1,7 @@
+method,runtime_seconds
+no_intervention,0.03335101851851852
+random_blocking,0.030223703703703704
+greedy_blocking,0.02425888888888889
+fairness_aware_greedy_blocking,0.023342592592592592
+pagerank_blocking,0.022777222222222223
+top_degree_blocking,0.022666666666666665
