@@ -74,6 +74,11 @@ jupyter>=1.0
 
 ## Data Setup
 
+Download the two raw datasets from their original sources:
+
+- CoAID COVID-19 misinformation data: [CoAID GitHub repository](https://github.com/cuilimeng/CoAID)
+- SNAP ego-Twitter graph data: [SNAP Twitter ego networks](https://snap.stanford.edu/data/ego-Twitter.html)
+
 Expected raw data layout:
 
 ```text
@@ -88,7 +93,13 @@ data/raw/coaid   -> archive-2/
 data/raw/twitter -> twitter/
 ```
 
-If you start from the original downloads, extract the CoAID archive and SNAP `twitter.tar`, then either place the extracted contents at `data/raw/coaid` and `data/raw/twitter`, or recreate equivalent symlinks.
+If you start from the original downloads, extract the CoAID archive and SNAP `twitter.tar.gz` / `twitter.tar`, then either place the extracted contents at `data/raw/coaid` and `data/raw/twitter`, or recreate equivalent symlinks:
+
+```bash
+mkdir -p data/raw
+ln -s ../../archive-2 data/raw/coaid
+ln -s ../../twitter data/raw/twitter
+```
 
 ## One-Command Reproduction
 
